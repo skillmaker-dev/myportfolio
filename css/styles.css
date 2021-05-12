@@ -77,6 +77,11 @@ a {
 .link--white {
   color: var(--white);
 }
+@media screen and (min-width: 1024px) {
+  .link {
+    font-size: 1.5rem;
+  }
+}
 /* Social Media Buttons */
 .icon {
   width: 30px;

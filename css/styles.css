@@ -61,6 +61,10 @@ p {
     font-size: 2.4rem;
   }
 }
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* Links */
 a {
   text-decoration: none;
@@ -182,5 +186,23 @@ a {
 @media screen and (min-width: 1024px) {
   .input {
     font-size: 1.5rem;
+  }
+}
+/* testimonial */
+.article-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.text-block {
+  font-size: 2.5rem;
+  font-family: "Open Sans";
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .text-block {
+    font-size: 2rem;
+    text-align: left;
   }
 }

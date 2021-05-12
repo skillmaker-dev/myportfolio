@@ -157,3 +157,30 @@ a {
     font-size: 1.5rem;
   }
 }
+
+/* inputs */
+
+.input {
+  border-radius: 30px;
+  border: 0;
+  color: var(--dark-blue);
+  font-size: 2rem;
+  outline: 0;
+  background-color: #f8f8f8;
+  padding: 1.5rem 2.5rem;
+  transition: background-color 0.3s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.input:focus {
+  background-color: var(--white);
+}
+
+::placeholder {
+  color: var(--platinum);
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.5rem;
+  }
+}

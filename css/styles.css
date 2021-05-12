@@ -77,6 +77,9 @@ a {
 .link--white {
   color: var(--white);
 }
+.footer__link{
+    color: var(--platinum);
+}
 @media screen and (min-width: 1024px) {
   .link {
     font-size: 1.5rem;
@@ -93,3 +96,4 @@ a {
 .icon--white {
   fill: var(--white);
 }
+/*

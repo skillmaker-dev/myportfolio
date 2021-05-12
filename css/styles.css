@@ -41,7 +41,7 @@ p {
   --oxford-blue: #1b263b;
   --bdazzled-blue: #415a77;
   --shadow-blue: #778da9;
-  --platinum: #e0e1dd;
+  --platinum: #7b858b;
   --white: #ffffff;
 }
 
@@ -77,9 +77,7 @@ a {
 .link--white {
   color: var(--white);
 }
-.footer__link{
-    color: var(--platinum);
-}
+
 @media screen and (min-width: 1024px) {
   .link {
     font-size: 1.5rem;

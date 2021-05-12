@@ -83,11 +83,18 @@ a {
     font-size: 1.5rem;
   }
 }
-/* Social Media Buttons */
+/*icons */
+
 .icon {
   width: 30px;
   height: 30px;
 }
+
+.icon__arrow{
+    width: 60px;
+    height: 60px;
+}
+
 .icon--dark {
   fill: var(--dark-blue);
 }

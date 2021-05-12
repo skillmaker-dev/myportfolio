@@ -8,6 +8,9 @@
     <rect x="24.4" y="27.9" width="1.6" height="15.24" rx=".8" transform="rotate(-39 11.114 37.674)"></rect>
     <rect x="33.3" y="27.9" width="1.6" height="15.24" rx=".8" transform="rotate(37.3 44.444 24.605)"></rect>
   </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" viewBox="-5 -8 24 24" id="chevron-down">
+    <path d="M7.071 5.314l4.95-4.95a1 1 0 111.414 1.414L7.778 7.435a1 1 0 01-1.414 0L.707 1.778A1 1 0 112.121.364l4.95 4.95z"></path>
+  </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" viewBox="-2 -2 24 24" id="facebook">
     <path d="M8.695 6.937v1.377H7.687v1.683h1.008V15h2.072V9.997h1.39s.131-.807.194-1.69h-1.576v-1.15c0-.173.226-.404.45-.404h1.128V5h-1.535C8.644 5 8.695 6.685 8.695 6.937z"></path>
     <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm0 2C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10z"></path>

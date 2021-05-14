@@ -432,8 +432,11 @@ a {
   width: 50px;
   height: 50px;
   fill: var(--white);
+  transition: transform 0.3s;
 }
-
+.intro .icon:hover {
+  transform: translateY(10px);
+}
 @media screen and (min-width: 768px) {
   .intro {
     font-size: 2rem;
@@ -454,6 +457,8 @@ a {
   flex-wrap: wrap;
   padding: 0.5rem;
   margin-bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 .nav__button {
   opacity: 0.5;

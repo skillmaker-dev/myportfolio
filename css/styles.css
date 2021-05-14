@@ -36,6 +36,9 @@ h3 {
 p {
   margin-top: 0;
 }
+textarea {
+  resize: none;
+}
 :root {
   --dark-blue: #0d1b2a;
   --oxford-blue: #1b263b;
@@ -184,6 +187,7 @@ a {
   align-items: center;
   border-bottom: 1px solid rgba(169, 169, 169, 0.5);
   transition: border 0.3s;
+  margin-bottom: 4rem;
 }
 .icon {
   transition: fill 0.3s;
@@ -275,16 +279,6 @@ a {
   justify-content: space-around;
   width: 200px;
 }
-@media screen and (min-width: 1024px) {
-  .card {
-    height: 550px;
-    width: 400px;
-  }
-  .card__photo {
-    width: 200px;
-    height: 200px;
-  }
-}
 .card-header {
   display: flex;
   flex-direction: column;
@@ -324,6 +318,17 @@ a {
   row-gap: 3rem;
 }
 
+@media screen and (min-width: 1024px) {
+  .card {
+    height: 550px;
+    width: 400px;
+  }
+  .card__photo {
+    width: 200px;
+    height: 200px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .grid {
     grid-template-columns: auto 1fr;
@@ -335,5 +340,67 @@ a {
   }
   .card-resume {
     width: 560px;
+  }
+}
+/*form*/
+.submit-form {
+  display: grid;
+  align-self: center;
+  justify-self: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 29px 0px;
+  overflow: hidden;
+  text-align: center;
+  max-width: 1000px;
+  padding: 1rem;
+}
+
+.form__heading {
+  color: var(--blue);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.form__message {
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.input-group textarea {
+  padding-top: 0;
+  font-family: "Poppins";
+}
+
+.grid-2 {
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  row-gap: 3rem;
+}
+
+.form {
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .grid-2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 3rem;
+  }
+  .container-2 {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .form {
+    padding: 1rem 4rem;
+  }
+  .form__image {
+    background: url("../images/prog.jpg") top left/cover no-repeat;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+    overflow: hidden;
+  }
+  .form__heading {
+    text-align: left;
   }
 }

@@ -351,7 +351,8 @@ a {
   overflow: hidden;
   text-align: center;
   max-width: 1000px;
-  padding: 1rem;
+
+  border-radius: 10px;
 }
 
 .form__heading {
@@ -376,7 +377,7 @@ a {
 }
 
 .form {
-  padding: 0;
+  padding: 1rem;
 }
 @media screen and (min-width: 768px) {
   .grid-2 {

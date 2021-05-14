@@ -18,35 +18,43 @@
 
     <title>My Potfolio</title>
   </head>
-  <body
-    style="
-      display: flex;
-      flex-direction: column;
-
-      background-color: black;
-    "
-  >
-    <div class="nav collapsible">
-      <a href="/"><img class="nav__logo" src="/images/logo.png" alt="" /></a>
-      <svg class="icon icon--white nav__button">
-        <use href="../images/sprite.svg#menu"></use>
-      </svg>
-      <ul class="list nav__list collapsible__content">
-        <li class="list__item"><a href="#">Home</a></li>
-        <li class="list__item"><a href="#">About Me</a></li>
-        <li class="list__item"><a href="#">Github</a></li>
-      </ul>
-    </div>
-    <section class="page-intro">
-      <div class="intro">
-        <p class="intro__text">HI I'M</p>
-        <h2 class="intro__name">Anas Chahid</h2>
-        <p class="intro__text">A COMPUTER SCIENCE STUDENT</p>
-        <p class="intro__text learn">LEARN MORE ABOUT WHAT I DO</p>
-        <a href="#"
-          ><svg class="icon icon--dark">
-            <use href="icons/sprite.svg#chevron-down"></use></svg
+  <body>
+    <section class="hero">
+      <div class="intro-nav">
+        <ul class="list nav__list2">
+          <li class="list__item"><a href="#">Home</a></li>
+          <li class="list__item"><a href="#">About Me</a></li>
+          <li class="list__item"><a href="#">Github</a></li>
+        </ul>
+      </div>
+      <div class="side-menu">
+        <a href="#">
+          <svg class="icon icon--dark">
+            <use href="icons/sprite.svg#linkedin"></use></svg
         ></a>
+
+        <a href="#">
+          <svg class="icon icon--dark">
+            <use href="icons/sprite.svg#instagram"></use>
+          </svg>
+        </a>
+
+        <a href="#">
+          <svg class="icon icon--dark">
+            <use href="icons/sprite.svg#facebook"></use></svg
+        ></a>
+      </div>
+      <div class="page-intro">
+        <div class="intro">
+          <p class="intro__text">HI I'M</p>
+          <h2 class="intro__name">Anas Chahid</h2>
+          <p class="intro__text">A COMPUTER SCIENCE STUDENT</p>
+          <p class="intro__text learn">LEARN MORE ABOUT WHAT I DO</p>
+          <a href="#"
+            ><svg class="icon icon--dark">
+              <use href="icons/sprite.svg#chevron-down"></use></svg
+          ></a>
+        </div>
       </div>
     </section>
   </body>

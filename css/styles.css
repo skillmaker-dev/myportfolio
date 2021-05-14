@@ -409,7 +409,7 @@ a {
 /*hero*/
 
 .intro {
-  margin-top: 8rem;
+  margin-top: 14rem;
   text-align: center;
   color: var(--white);
   font-weight: 300;
@@ -422,21 +422,23 @@ a {
   font-weight: 300;
 }
 .learn {
-  margin-bottom: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
 }
 .intro .icon {
   width: 50px;
   height: 50px;
   fill: var(--white);
 }
-.learn {
-  margin-top: 10rem;
-}
+
 @media screen and (min-width: 768px) {
   .intro {
     font-size: 2rem;
   }
   .intro__name {
     font-size: 7rem;
+  }
+  .learn {
+    margin-top: 25rem;
   }
 }

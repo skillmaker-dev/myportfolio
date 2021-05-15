@@ -116,7 +116,11 @@ a {
   fill: var(--white);
 }
 /*Buttons*/
-
+.block__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .button {
   border-radius: 40px;
   border: 0;
@@ -131,6 +135,7 @@ a {
   transition: background-color 0.15s;
   white-space: nowrap;
   display: inline-block;
+  width: 100px;
 }
 
 .button--primary {
@@ -595,5 +600,46 @@ a {
   }
   .card {
     margin-right: 0;
+  }
+}
+/* projects section */
+.projects-block {
+  height: 100vh;
+}
+.project {
+  margin-bottom: 3rem;
+  border-bottom: 1px solid darkgray;
+  padding: 1rem;
+  width: 100%;
+}
+.grid-1x2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+}
+.project__image {
+  justify-self: center;
+}
+.project__image img {
+  width: 100%;
+}
+
+.website-performances {
+  width: 100%;
+  margin: 2rem 0;
+}
+.projects-block .button {
+  margin: 1rem 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .grid-1x2 {
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .project__image {
+    align-self: center;
+  }
+  .projects-block .button {
+    margin: 1rem 2rem;
   }
 }

@@ -631,6 +631,7 @@ a {
 .projects-block .button {
   margin: 1rem 1rem;
 }
+
 @media screen and (min-width: 1024px) {
   .grid-1x2 {
     grid-template-rows: 1fr;
@@ -641,5 +642,8 @@ a {
   }
   .projects-block .button {
     margin: 1rem 2rem;
+  }
+  .project:nth-of-type(even) .project__image {
+    order: 2;
   }
 }

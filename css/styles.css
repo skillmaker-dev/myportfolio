@@ -588,7 +588,22 @@ a {
 }
 /*self introduction section*/
 
+.text-block .block__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.article-container {
+  padding: 2rem;
+}
+.block__self-introduction {
+  width: 100%;
+  justify-content: center;
+}
 @media screen and (min-width: 1024px) {
+  .text-block .block__buttons {
+    flex-direction: row;
+  }
   .block__self-introduction {
     display: flex;
     flex-direction: row;
@@ -603,6 +618,7 @@ a {
   }
 }
 /* projects section */
+
 .projects-block {
   height: 100vh;
 }
@@ -636,7 +652,9 @@ a {
 .projects-block .button {
   margin: 1rem 1rem;
 }
-
+.projects__header {
+  text-align: center;
+}
 @media screen and (min-width: 1024px) {
   .grid-1x2 {
     grid-template-rows: 1fr;

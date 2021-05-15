@@ -363,6 +363,7 @@ a {
   max-width: 1000px;
 
   border-radius: 10px;
+  margin: 5rem 1rem;
 }
 .form__image {
   background: url(../images/Polygon.svg);
@@ -428,7 +429,6 @@ a {
 /*hero*/
 
 .hero {
-  width: 100vw;
   height: 100vh;
   background-image: url(../images/code.jpg);
   background-size: cover;
@@ -611,6 +611,8 @@ a {
 .block__self-introduction {
   width: 100%;
   justify-content: center;
+  margin-top: 5rem;
+  border-bottom: 1px solid darkgray;
 }
 @media screen and (min-width: 1024px) {
   .text-block .block__buttons {
@@ -621,7 +623,7 @@ a {
     flex-direction: row;
     align-items: center;
     height: 100vh;
-    background: url(../images/wave.svg);
+    /* background: url(../images/wave.svg); */
     background-repeat: no-repeat;
     margin-bottom: 10rem;
   }
@@ -631,9 +633,6 @@ a {
 }
 /* projects section */
 
-.projects-block {
-  height: 100vh;
-}
 .project {
   margin-bottom: 3rem;
   border-bottom: 1px solid darkgray;
@@ -688,6 +687,9 @@ a {
   margin: 0 auto;
   margin-bottom: 10rem;
 }
+.resume__border {
+  border-bottom: 1px solid darkgray;
+}
 .resume__header h3 {
   font-size: 2rem;
   margin: 0;
@@ -704,9 +706,9 @@ a {
   width: 100%;
 }
 
-.container-2 {
+/* .container-2 {
   max-width: 560px;
-}
+} */
 
 @media screen and (min-width: 1024px) {
   .resume__header {

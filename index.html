@@ -18,75 +18,332 @@
     <title>My Potfolio</title>
   </head>
   <body>
-    <footer class="website-footer">
-      <div class="container grid footer__sections">
-        <div class="footer__item">
-          <div class="footer__content">
-            <div class="collapsible">
-              <header class="collapsible__header">
-                <h2 class="collapsible__heading">Products</h2>
-                <svg class="icon icon--white collapsible__icon">
-                  <use href="icons/sprite.svg#chevron-down"></use>
-                </svg>
-              </header>
-              <div class="collapsible__content">
-                <ul class="footer__links">
-                  <li><a href="#" class="footer__link">About us</a></li>
-                  <li><a href="#" class="footer__link">Random</a></li>
-                  <li><a href="#" class="footer__link">Select</a></li>
-                  <li><a href="#" class="footer__link">Version</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer__item">
-          <div class="footer__content">
-            <div class="collapsible">
-              <header class="collapsible__header">
-                <h2 class="collapsible__heading">Products</h2>
-                <svg class="icon icon--white collapsible__icon">
-                  <use href="icons/sprite.svg#chevron-down"></use>
-                </svg>
-              </header>
-              <div class="collapsible__content">
-                <ul class="footer__links">
-                  <li><a href="#" class="footer__link">About us</a></li>
-                  <li><a href="#" class="footer__link">Random</a></li>
-                  <li><a href="#" class="footer__link">Select</a></li>
-                  <li><a href="#" class="footer__link">Version</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer__item">
-          <div class="footer__content">
-            <div class="collapsible">
-              <header class="collapsible__header">
-                <h2 class="collapsible__heading">Products</h2>
-                <svg class="icon icon--white collapsible__icon">
-                  <use href="icons/sprite.svg#chevron-down"></use>
-                </svg>
-              </header>
-              <div class="collapsible__content">
-                <ul class="footer__links">
-                  <li><a href="#" class="footer__link">About us</a></li>
-                  <li><a href="#" class="footer__link">Random</a></li>
-                  <li><a href="#" class="footer__link">Select</a></li>
-                  <li><a href="#" class="footer__link">Version</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+    <!--Hero-->
+    <section class="hero">
+      <div class="intro-nav">
+        <ul class="list nav__list2">
+          <li class="list__item"><a href="#">Home</a></li>
+          <li class="list__item"><a href="#">About Me</a></li>
+          <li class="list__item"><a href="#">Github</a></li>
+        </ul>
+      </div>
+      <div class="side-menu">
+        <a href="#">
+          <svg class="icon icon--dark">
+            <use href="icons/sprite.svg#linkedin"></use></svg
+        ></a>
 
-        <div class="footer__brand">
-          <img src="images/logo.png" alt="" />
-          <p>Copyright 2020 Anas Chahid</p>
+        <a href="#">
+          <svg class="icon icon--dark">
+            <use href="icons/sprite.svg#instagram"></use>
+          </svg>
+        </a>
+
+        <a href="#">
+          <svg class="icon icon--dark">
+            <use href="icons/sprite.svg#facebook"></use></svg
+        ></a>
+      </div>
+      <div class="page-intro">
+        <div class="intro">
+          <p class="intro__text">HI I'M</p>
+          <h2 class="intro__name">Anas Chahid</h2>
+          <p class="intro__text">A COMPUTER SCIENCE STUDENT</p>
+          <p class="intro__text learn">LEARN MORE ABOUT WHAT I DO</p>
+          <a href="#"
+            ><svg class="icon icon--dark">
+              <use href="icons/sprite.svg#chevron-down"></use></svg
+          ></a>
         </div>
       </div>
-    </footer>
-    <script src="/js/main.js"></script>
+    </section>
+    <!--self intro-->
+    <section class="block__self-introduction">
+      <div class="card">
+        <div class="card-top">
+          <img class="card__photo" src="images/me.jpg" alt="me" /></img>
+          <h2 class="card-name">Anas <br> Chahid</h2>
+          <a href="#">
+            <svg class="icon">
+              <use href="icons/sprite.svg#line"></use></svg
+          ></a>
+          <p class="card-description">Computer Science Student</p>
+        </div>
+        <div class="card-bottom">
+          <div class="card-icons ">
+            <a href="#">
+              <svg class="icon icon--dark">
+                <use href="icons/sprite.svg#linkedin"></use></svg
+            ></a>
+            <a href="#">
+              <svg class="icon icon--dark">
+                <use href="icons/sprite.svg#instagram"></use></svg
+            ></a>
+            <a href="#">
+              <svg class="icon icon--dark">
+                <use href="icons/sprite.svg#facebook"></use></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+      <article class="text-block article-container">
+        <h2 class="block__heading">Hello</h2>
+        <p class="block__content">
+          My name is Anas Chahid, I'm currently a student in National School of
+          Applied Science, I've Created a bunch of projects using multiple languages
+          and this portfolio is one of them. <br />
+          I'm planning on doing more Projects in the future.
+        </p>
+        <p class="block__social">
+          Github: @skillmaker-dev <br />
+          Instagram: @iamanaschahid <br />
+          LinkedIn: Anas Chahid
+        </p>
+        <div class="block__buttons">
+          <a class="button button--primary" href="#">Button</a>
+          <a class="button button--outline" href="#">Button</a>
+        </div>
+      </article>
+      
+    </section>
+    <!--my Projects-->
+    <section class="projects-block">
+      <header class="projects__header"><h2>My Projects</h2></header>
+      <div class="project grid-1x2">
+        <div class="project__image">
+          <img src="images/laptop.png" alt="laptop" />
+        </div>
+        <article class="text-block article-container">
+          <h2 class="block__heading">Margo Hosting Website</h2>
+          <p class="block__content">
+            This is a Website Created by me using HTML, CSS, JavaScript from
+            scratch.<br />
+          </p>
+          <img
+            class="website-performances"
+            src="images/margo-measure.png"
+            alt="measures"
+          />
+          <div class="block__buttons">
+            <a class="button button--red button--block" href="#">view</a>
+            <a class="button button--outline button--block" href="#">Github</a>
+          </div>
+        </article>
+      </div>
+      <div class="project grid-1x2">
+        <div class="project__image">
+          <img src="images/laptop.png" alt="laptop" />
+        </div>
+        <article class="text-block article-container">
+          <h2 class="block__heading">Margo Hosting Website</h2>
+          <p class="block__content">
+            This is a Website Created by me using HTML, CSS, JavaScript from
+            scratch.<br />
+          </p>
+          <img
+            class="website-performances"
+            src="images/margo-measure.png"
+            alt="measures"
+          />
+          <div class="block__buttons">
+            <a class="button button--red button--block" href="#">view</a>
+            <a class="button button--outline button--block" href="#">Github</a>
+          </div>
+        </article>
+      </div>
+      <div class="project grid-1x2">
+        <div class="project__image">
+          <img src="images/laptop.png" alt="laptop" />
+        </div>
+        <article class="text-block article-container">
+          <h2 class="block__heading">Margo Hosting Website</h2>
+          <p class="block__content">
+            This is a Website Created by me using HTML, CSS, JavaScript from
+            scratch.<br />
+          </p>
+          <img
+            class="website-performances"
+            src="images/margo-measure.png"
+            alt="measures"
+          />
+          <div class="block__buttons">
+            <a class="button button--red button--block" href="#">view</a>
+            <a class="button button--outline button--block" href="#">Github</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--my resume-->
+    <section class="block__resume  resume__border">
+      <div class="resume container-2">
+        <header class="resume__header">
+          <h3 class="resume__heading">My Resume</h3>
+          <a class="button button--primary" href="#">Download CV</a>
+        </header>
+        <main>
+          <article class="card-resume grid">
+            <header class="card-header">
+              <h3 class="card__heading">2019-</h3>
+              <h4 class="card__subHeading">JOB POSITION</h4>
+              <div class="card__company">SQLI</div>
+              <div class="card__location">Oujda, Morocco</div>
+            </header>
+            <p class="card-resume__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
+              recusandae delectus fuga inventore, molestias quisquam mollitia
+              dolores nostrumlorem5 Lorem ipsum dolor sit amet.
+            </p>
+          </article>
+          <article class="card-resume grid">
+            <header class="card-header">
+              <h3 class="card__heading">2019-</h3>
+              <h4 class="card__subHeading">JOB POSITION</h4>
+              <div class="card__company">SQLI</div>
+              <div class="card__location">Oujda, Morocco</div>
+            </header>
+            <p class="card-resume__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
+              recusandae delectus fuga inventore, molestias quisquam mollitia
+              dolores nostrumlorem5 Lorem ipsum dolor sit amet.
+            </p>
+          </article>
+          <article class="card-resume grid">
+            <header class="card-header">
+              <h3 class="card__heading">2019-</h3>
+              <h4 class="card__subHeading">JOB POSITION</h4>
+              <div class="card__company">SQLI</div>
+              <div class="card__location">Oujda, Morocco</div>
+            </header>
+            <p class="card-resume__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
+              recusandae delectus fuga inventore, molestias quisquam mollitia
+              dolores nostrumlorem5 Lorem ipsum dolor sit amet.
+            </p>
+          </article>
+          <article class="card-resume grid">
+            <header class="card-header">
+              <h3 class="card__heading">2019-</h3>
+              <h4 class="card__subHeading">JOB POSITION</h4>
+              <div class="card__company">SQLI</div>
+              <div class="card__location">Oujda, Morocco</div>
+            </header>
+            <p class="card-resume__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
+              recusandae delectus fuga inventore, molestias quisquam mollitia
+              dolores nostrumlorem5 Lorem ipsum dolor sit amet.
+            </p>
+          </article>
+        </main>
+      </div>
+    </section>
+    <!--contact me form-->
+    <section class="container-2 ">
+      <div class="submit-form grid-2 container">
+        <div class="form__image">
+          <h2 class="form-image__heading">CONTACT ME</h2>
+        </div>
+        <div class="form">
+          <form action="POST">
+            <div id="inputGroup" class="input-group">
+              <svg class="icon icon--dark">
+                <use href="icons/sprite.svg#email"></use>
+              </svg>
+              <input class="input" type="text" placeholder="Your Email" />
+            </div>
+            <div id="inputGroup" class="input-group">
+              <svg class="icon icon--dark">
+                <use href="icons/sprite.svg#user"></use>
+              </svg>
+              <input class="input" type="text" placeholder="Your Name" />
+            </div>
+            <div id="inputGroup" class="input-group form__message">
+              <svg class="icon icon--dark">
+                <use href="icons/sprite.svg#comment"></use>
+              </svg>
+              <textarea
+                class="input"
+                name="message"
+                cols="30"
+                rows="5"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+            <a class="button button--primary button--block" href="#">Submit</a>
+          </form>
+        </div>
+      </div>
+    </section>
+<!--footer-->    
+<footer class="website-footer">
+  <div class="container grid footer__sections">
+    <div class="footer__item">
+      <div class="footer__content">
+        <div class="collapsible">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">Products</h2>
+            <svg class="icon icon--white collapsible__icon">
+              <use href="icons/sprite.svg#chevron-down"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="footer__links">
+              <li><a href="#" class="footer__link">About us</a></li>
+              <li><a href="#" class="footer__link">Random</a></li>
+              <li><a href="#" class="footer__link">Select</a></li>
+              <li><a href="#" class="footer__link">Version</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__item">
+      <div class="footer__content">
+        <div class="collapsible">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">Products</h2>
+            <svg class="icon icon--white collapsible__icon">
+              <use href="icons/sprite.svg#chevron-down"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="footer__links">
+              <li><a href="#" class="footer__link">About us</a></li>
+              <li><a href="#" class="footer__link">Random</a></li>
+              <li><a href="#" class="footer__link">Select</a></li>
+              <li><a href="#" class="footer__link">Version</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__item">
+      <div class="footer__content">
+        <div class="collapsible">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">Products</h2>
+            <svg class="icon icon--white collapsible__icon">
+              <use href="icons/sprite.svg#chevron-down"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="footer__links">
+              <li><a href="#" class="footer__link">About us</a></li>
+              <li><a href="#" class="footer__link">Random</a></li>
+              <li><a href="#" class="footer__link">Select</a></li>
+              <li><a href="#" class="footer__link">Version</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__brand">
+      <img src="images/logo.png" alt="" />
+      <p>Copyright 2020 Anas Chahid</p>
+    </div>
+  </div>
+</footer>
+<script src="/js/main.js"></script>
+
   </body>
 </html>

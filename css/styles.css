@@ -9,6 +9,7 @@ body {
   color: var(--dark-blue);
   height: 100vh;
   font-size: 2rem;
+  margin: 0;
 }
 
 *,
@@ -116,11 +117,7 @@ a {
   fill: var(--white);
 }
 /*Buttons*/
-.block__buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+
 .button {
   border-radius: 40px;
   border: 0;
@@ -599,6 +596,7 @@ a {
     height: 100vh;
     background: url(../images/wave.svg);
     background-repeat: no-repeat;
+    margin-bottom: 10rem;
   }
   .card {
     margin-right: 0;
@@ -613,6 +611,11 @@ a {
   border-bottom: 1px solid darkgray;
   padding: 1rem;
   width: 100%;
+}
+.project .block__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .grid-1x2 {
   display: grid;
@@ -653,6 +656,7 @@ a {
 .resume {
   padding: 2rem;
   margin: 0 auto;
+  margin-bottom: 10rem;
 }
 .resume__header h3 {
   font-size: 2rem;

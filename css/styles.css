@@ -240,6 +240,7 @@ a {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   font-family: "Open Sans";
+  margin: 0 auto;
 }
 .card-top {
   background-color: #f4ece6;
@@ -579,5 +580,20 @@ a {
   }
   .nav__list .list__item {
     border-bottom: none;
+  }
+}
+/*self introduction section*/
+
+@media screen and (min-width: 1024px) {
+  .block__self-introduction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    background: url(../images/wave.svg);
+    background-repeat: no-repeat;
+  }
+  .card {
+    margin-right: 0;
   }
 }

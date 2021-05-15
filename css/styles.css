@@ -361,7 +361,7 @@ a {
   overflow: hidden;
   text-align: center;
   max-width: 1000px;
-
+  background-color: var(--white);
   border-radius: 10px;
   margin: 5rem 1rem;
 }
@@ -531,7 +531,7 @@ a {
 
 /* Navigation Bar */
 .nav {
-  background-color: black;
+  background-color: var(--dark-blue);
   display: flex;
   justify-content: space-between;
   align-items: center;

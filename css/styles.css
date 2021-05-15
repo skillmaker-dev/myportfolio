@@ -135,7 +135,6 @@ a {
   transition: background-color 0.15s;
   white-space: nowrap;
   display: inline-block;
-  width: 100px;
 }
 
 .button--primary {
@@ -292,9 +291,11 @@ a {
   flex-direction: column;
 }
 .card-resume {
+  margin-bottom: 5rem;
   font-family: "Poppins";
   background-color: var(--white);
-  width: 300px;
+  /* width: 500px; */
+  width: 100%;
 
   box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 29px 0px;
   padding: 2rem;
@@ -347,7 +348,8 @@ a {
     margin-top: 5rem;
   }
   .card-resume {
-    width: 560px;
+    width: 100%;
+    height: 250px;
   }
 }
 /*form*/
@@ -645,5 +647,42 @@ a {
   }
   .project:nth-of-type(even) .project__image {
     order: 2;
+  }
+}
+/*resume section*/
+.resume {
+  padding: 2rem;
+  margin: 0 auto;
+}
+.resume__header h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+.resume__heading {
+  color: #0050ff;
+}
+
+.resume__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.container-2 {
+  max-width: 560px;
+}
+
+@media screen and (min-width: 1024px) {
+  .resume__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .resume {
+    padding: 0;
   }
 }

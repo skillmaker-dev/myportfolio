@@ -435,15 +435,19 @@ a {
   background-image: url(../images/code.jpg);
   background-size: cover;
 }
-
+.intro__text {
+  margin: 0;
+}
 .intro {
   display: flex;
   flex-direction: column;
   text-align: center;
   color: var(--white);
   font-weight: 300;
-  justify-content: center;
+  justify-content: space-around;
   max-width: 450px;
+  max-height: 600px;
+  margin-top: 10rem;
 }
 .intro-nav {
   display: none;
@@ -451,13 +455,13 @@ a {
 .intro__name {
   font-family: "Allura";
   font-size: 4rem;
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
   color: var(--white);
   font-weight: 300;
 }
 .learn {
-  margin-top: 20rem;
-  margin-bottom: 2rem;
+  /* margin-top: 20rem;
+  margin-bottom: 2rem; */
 }
 .intro .icon {
   width: 50px;
@@ -502,7 +506,7 @@ a {
     font-size: 7rem;
   }
   .learn {
-    margin-top: 25rem;
+    /* margin-top: 15rem; */
   }
   .side-menu {
     top: 20rem;
@@ -578,7 +582,7 @@ a {
   border-radius: 3px;
 }
 .nav__logo {
-  width: 120px;
+  width: 100px;
   transform: translateY(5px);
 }
 

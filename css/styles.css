@@ -758,7 +758,13 @@ a {
 .collapsible--checked .collapsible__icon {
   transform: rotate(0);
 }
-
+@media screen and (min-width: 768px) {
+  .collapsible__content {
+    flex-direction: row;
+    opacity: 1;
+    max-height: 100%;
+  }
+}
 /*footer*/
 .footer__sections {
   margin-top: 5rem;

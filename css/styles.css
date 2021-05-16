@@ -537,7 +537,6 @@ a {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0.5rem;
   margin-bottom: 0;
   position: fixed;
   width: 100%;
@@ -785,7 +784,6 @@ a {
 .website-footer .collapsible__content,
 .website-footer .footer__link {
   color: #7b858b;
-  transition: color 0.15s;
 }
 .footer__brand {
   margin-top: 5rem;
@@ -809,6 +807,7 @@ a {
 
 .footer__link:hover {
   color: var(--white);
+  transition: color 0.3s;
 }
 .footer__content {
   width: 100%;

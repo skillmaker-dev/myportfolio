@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .skill-card {
+        width: 200px;
+        height: 200px;
+        background-color: gold;
+        border-radius: 5px;
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        justify-self: center;
+      }
+      .skill__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .skill__description {
+        font-family: "Poppins";
+        color: white;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 0px;
+        height: 200px;
+        width: 200px;
+        background-color: #b4cded;
+        transform: translateY(200px);
+        transition: all 0.5s;
+      }
+      .skill__description h3 {
+        margin: 0;
+      }
+      .skill-card:hover .skill__description {
+        transform: translateY(0);
+      }
+      .container-3 {
+        max-width: 1140px;
+        margin: 0 auto;
+      }
+      .skills-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 4rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="skills-block">
+      <div class="skills-container container-3">
+        <div class="skill-card">
+          <img class="skill__image" src="../images/code.jpg" alt="" />
+          <div class="skill__description"><h3>HTML</h3></div>
+        </div>
+        <div class="skill-card">
+          <img class="skill__image" src="../images/code.jpg" alt="" />
+          <div class="skill__description"><h3>HTML</h3></div>
+        </div>
+        <div class="skill-card">
+          <img class="skill__image" src="../images/code.jpg" alt="" />
+          <div class="skill__description"><h3>HTML</h3></div>
+        </div>
+        <div class="skill-card">
+          <img class="skill__image" src="../images/code.jpg" alt="" />
+          <div class="skill__description"><h3>HTML</h3></div>
+        </div>
+        <div class="skill-card">
+          <img class="skill__image" src="../images/code.jpg" alt="" />
+          <div class="skill__description"><h3>HTML</h3></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

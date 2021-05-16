@@ -10,6 +10,7 @@ body {
   height: 100vh;
   font-size: 2rem;
   margin: 0;
+  background: #f0f5f8;
 }
 
 *,
@@ -154,7 +155,7 @@ a {
   padding: 1.7rem 3vw;
   border: 3px solid var(--dark-blue);
   color: var(--dark-blue);
-  background-color: var(--white);
+  background-color: transparent;
 }
 
 .button--outline:hover {
@@ -410,7 +411,7 @@ a {
     column-gap: 3rem;
   }
   .container-2 {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
   }
 
@@ -540,6 +541,7 @@ a {
   margin-bottom: 0;
   position: fixed;
   width: 100%;
+  z-index: 999;
 }
 .nav__button {
   opacity: 0.5;
@@ -822,5 +824,88 @@ a {
   }
   .collapsible__heading {
     font-size: 1.6rem;
+  }
+}
+/*skill card*/
+.skill-card {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  border-radius: 5px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  justify-self: center;
+}
+.skill__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.skill__description {
+  font-family: "Poppins";
+  color: white;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0px;
+  height: 200px;
+  width: 200px;
+  transform: translateY(200px);
+  transition: all 0.5s;
+}
+.skill__description h3 {
+  margin: 0;
+}
+.skills-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+.skill-card:hover .skill__description {
+  transform: translateY(0);
+}
+
+.skill__description h3 {
+  color: var(--white);
+  margin: 0;
+}
+.skill-card:hover .skill__description {
+  transform: translateY(0);
+}
+.skills__heading {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+.skills-container {
+  display: grid;
+  row-gap: 4rem;
+  column-gap: 4rem;
+  max-width: 1000px;
+}
+@media screen and (min-width: 1024px) {
+  .skills-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .skills-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    max-width: 700px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    max-width: 700px;
   }
 }

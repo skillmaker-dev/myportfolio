@@ -459,10 +459,7 @@ a {
   color: var(--white);
   font-weight: 300;
 }
-.learn {
-  /* margin-top: 20rem;
-  margin-bottom: 2rem; */
-}
+
 .intro .icon {
   width: 50px;
   height: 50px;
@@ -504,9 +501,6 @@ a {
   }
   .intro__name {
     font-size: 7rem;
-  }
-  .learn {
-    /* margin-top: 15rem; */
   }
   .side-menu {
     top: 20rem;

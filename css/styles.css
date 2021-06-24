@@ -835,12 +835,16 @@ a {
 .skill-card {
   width: 200px;
   height: 200px;
-  background-color: gold;
+  background-color: aliceblue;
   border-radius: 5px;
   overflow: hidden;
   display: inline-block;
   position: relative;
   justify-self: center;
+}
+.overflow{
+  padding: 1rem;
+  width: auto;
 }
 .skill__image {
   width: 100%;
@@ -860,6 +864,7 @@ a {
   transform: translateY(200px);
   transition: all 0.5s;
 }
+
 .skill__description h3 {
   margin: 0;
 }

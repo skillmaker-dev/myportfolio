@@ -25,10 +25,15 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title>Anas Chahid</title>
   </head>
   <body>
+    <script>
+  AOS.init();
+</script>
     <!--nav bar-->
     <div class="nav collapsible" id="navbar">
       <a href="/"><img class="nav__logo" src="/images/logo.png" alt="" /></a>
@@ -76,7 +81,7 @@
     </section>
     <!--self intro-->
     <section class="block__self-introduction" id="selfIntro">
-      <div class="card">
+      <div class="card" data-aos="zoom-out-right">
         <div class="card-top">
           <img class="card__photo" src="images/me.jpg" alt="me" /></img>
           <h2 class="card-name">Anas <br> Chahid</h2>

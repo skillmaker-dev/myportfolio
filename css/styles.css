@@ -852,6 +852,9 @@ a {
   height: 100%;
   object-fit: cover;
 }
+.arduino{
+  width: 100%;
+}
 .skill__description {
   font-family: "Poppins";
   color: white;

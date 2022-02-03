@@ -659,6 +659,7 @@ img {
 }
 .project__image {
   justify-self: center;
+  pointer-events: none;
 }
 .project__image img {
   width: 100%;

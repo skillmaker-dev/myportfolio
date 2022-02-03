@@ -659,6 +659,10 @@ a {
   width: 100%;
 }
 
+.phone img {
+  height: 600px;
+}
+
 .website-performances {
   width: 100%;
   margin: 2rem 0;
@@ -852,7 +856,7 @@ a {
   height: 100%;
   object-fit: cover;
 }
-.arduino{
+.arduino {
   width: 100%;
 }
 .skill__description {

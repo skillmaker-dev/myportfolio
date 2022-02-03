@@ -100,6 +100,11 @@ a {
     font-size: 1.5rem;
   }
 }
+/* images */
+img {
+  pointer-events: none;
+}
+
 /*icons */
 
 .icon {

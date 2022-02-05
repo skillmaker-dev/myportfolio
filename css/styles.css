@@ -706,6 +706,7 @@ img {
 .resume__header h3 {
   font-size: 2rem;
   margin: 0;
+  height: 4rem;
 }
 .resume__heading {
   color: #0050ff;

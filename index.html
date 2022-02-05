@@ -68,7 +68,7 @@
         <div class="intro">
           <p class="intro__text">HI I'M</p>
           <h2 class="intro__name">Anas Chahid</h2>
-          <p class="intro__text">I'M A COMPUTER SCIENCE STUDENT</p>
+          <p class="intro__text">I'M A COMPUTER ENGINEERING STUDENT</p>
           <p class="intro__text learn">LEARN MORE ABOUT WHAT I DO</p>
           <a href="#selfIntro"
             ><svg class="icon icon--dark">
@@ -87,7 +87,7 @@
             <svg class="icon">
               <use href="icons/sprite.svg#line"></use></svg
           ></a>
-          <p class="card-description">Computer Science Student</p>
+          <p class="card-description">Computer Engineering Student</p>
         </div>
         <div class="card-bottom">
           <div class="card-icons ">
@@ -308,6 +308,7 @@
         <h2 class="skills__heading">My Skills</h2>
       </header>
       <div class="skills-container ">
+
         <div class="skill-card">
           <img class="skill__image" src="../images/react.png" alt="" />
           <div class="skill__description"><h3>React</h3></div>
@@ -353,7 +354,7 @@
           <div class="skill__description"><h3>Python</h3></div>
         </div>
         <div class="skill-card">
-          <img class="arduino" src="../images/arduino.svg" alt="" />
+          <img class="skill__image" src="../images/arduino.svg" alt="" />
           <div class="skill__description"><h3>Arduino</h3></div>
         </div>
         
@@ -499,13 +500,13 @@
               <svg class="icon icon--dark">
                 <use href="icons/sprite.svg#email"></use>
               </svg>
-              <input class="input" type="email" name="email" placeholder="Your Email" />
+              <input class="input" type="email" name="email" placeholder="Your Email" required/>
             </div>
             <div id="inputGroup" class="input-group">
               <svg class="icon icon--dark">
                 <use href="icons/sprite.svg#user"></use>
               </svg>
-              <input class="input" type="text" name="name" placeholder="Your Name" />
+              <input class="input" type="text" name="name" placeholder="Your Name" required/>
             </div>
             <div id="inputGroup" class="input-group form__message">
               <svg class="icon icon--dark">
@@ -517,6 +518,7 @@
                 cols="30"
                 rows="5"
                 placeholder="Your Message"
+                required
               ></textarea>
             </div>
             <button class="button button--primary button--block" type="submit">Submit</button>

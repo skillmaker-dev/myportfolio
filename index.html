@@ -25,16 +25,13 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
     
 
     <title>Anas Chahid</title>
   </head>
   <body>
-    <iframe src="/audio/theme.oggg" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-    <audio autoplay hidden>
-        <source src="/audio/theme.ogg" type="audio/mp3">
-    </audio>
     
     <!--nav bar-->
     <div class="nav collapsible" id="navbar">
@@ -136,7 +133,7 @@
       
       
       <div class="project grid-1x2">
-        <div class="project__image">
+        <div class="project__image" data-aos="fade-right">
           <img src="images/proj12img.png" alt="laptop" />
         </div>
         <article class="text-block article-container">
@@ -152,7 +149,7 @@
       </div>
 
       <div class="project grid-1x2">
-        <div class="project__image">
+        <div class="project__image" data-aos="fade-left">
           <img src="images/proj11img.png" alt="laptop" />
         </div>
         <article class="text-block article-container">
@@ -169,7 +166,7 @@
       </div>
 
       <div class="project grid-1x2">
-        <div class="project__image">
+        <div class="project__image" data-aos="fade-right">
           <img src="images/proj10img.png" alt="laptop" />
         </div>
         <article class="text-block article-container">
@@ -186,7 +183,7 @@
       </div>
 
       <div class="project grid-1x2">
-        <div class="project__image phone">
+        <div class="project__image phone" data-aos="fade-left">
           <img src="images/proj9img.png" alt="phone" />
         </div>
         <article class="text-block article-container">
@@ -202,7 +199,7 @@
       </div>
       
       <div class="project grid-1x2">
-        <div class="project__image">
+        <div class="project__image" data-aos="fade-right">
           <img src="images/proj8img.png" alt="laptop" />
         </div>
         <article class="text-block article-container">
@@ -219,7 +216,7 @@
       </div>
       
         <div class="project grid-1x2">
-        <div class="project__image">
+        <div class="project__image" data-aos="fade-left">
           <img src="images/proj7img.png" alt="laptop" />
         </div>
         <article class="text-block article-container">
@@ -237,7 +234,7 @@
       
       
       <div class="project grid-1x2">
-        <div class="project__image">
+        <div class="project__image" data-aos="fade-right">
           <img src="images/proj6img.png" alt="laptop" />
         </div>
         <article class="text-block article-container">
@@ -255,7 +252,7 @@
       
       
       <div class="project grid-1x2">
-        <div class="project__image">
+        <div class="project__image" data-aos="fade-left">
           <img src="images/proj5img.png" alt="laptop" />
         </div>
         <article class="text-block article-container">
@@ -274,7 +271,7 @@
       
       
       <div class="project grid-1x2">
-        <div class="project__image">
+        <div class="project__image" data-aos="fade-right">
           <img src="images/proj4img.png" alt="laptop" />
         </div>
         <article class="text-block article-container">
@@ -290,7 +287,7 @@
         </article>
       </div>
       <div class="project grid-1x2">
-        <div class="project__image">
+        <div class="project__image" data-aos="fade-left">
           <img src="images/proj1img.png" alt="laptop" />
         </div>
         <article class="text-block article-container">
@@ -307,7 +304,7 @@
         </article>
       </div>
       <div class="project grid-1x2">
-        <div class="project__image">
+        <div class="project__image" data-aos="fade-right">
           <img src="images/proj2img.png" alt="laptop" />
         </div>
         <article class="text-block article-container">
@@ -323,7 +320,7 @@
         </article>
       </div>
       <div class="project grid-1x2">
-        <div class="project__image">
+        <div class="project__image" data-aos="fade-left">
           <img src="images/proj3img.png" alt="laptop" />
         </div>
         <article class="text-block article-container">
@@ -626,6 +623,10 @@
     </div>
   </div>
 </footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 <script src="/js/main.js"></script>
 <script src="/js/particles.js"></script>
 <script src="/js/app.js"></script>

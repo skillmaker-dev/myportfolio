@@ -11,7 +11,6 @@ const movingcard = document.querySelectorAll(".skill__description");
 card.forEach((item) =>
   item.addEventListener("mouseover" || "click", () => {
     movingcard.forEach((item2) => (item2.style.backgroundColor = colors()));
-    console.log(colors());
   })
 );
 
